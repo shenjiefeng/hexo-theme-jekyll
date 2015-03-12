@@ -1,5 +1,7 @@
 # Hexo Theme ： Prometheus v0.1
 
+Most featrues are changing at any times. 
+
 ## Install
 
 ``` bash
