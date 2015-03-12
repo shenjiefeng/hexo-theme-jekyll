@@ -1,0 +1,93 @@
+::selection {
+  color: white;
+  background-color: $active-color;
+}
+::-moz-selection {
+  color: white;
+  background-color: $active-color;  
+}
+a {
+  text-decoration: none;
+  &:link, &:visited {
+    color: $default-color;
+  }
+  &:hover, &:focus, &:active {
+    color: $active-color;
+  }
+}
+ul ol {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+iframe {
+  display: block;
+  width: 42em;
+  height: 24em;
+  margin: 1em auto;
+}
+blockquote {
+  margin: 0;
+  p {
+    margin: 1em;
+    border-left: 15px solid darken($container-color, 10%);
+    padding-left: 1em;
+    font-family: $emphatic-fonts;
+  }
+}
+table {
+  min-width: 400px;
+  width: 50%;
+  height: auto;
+  margin: 1em auto;
+  thead {
+    padding: 3px 1em;
+    background-color: #e6e7eb;
+  }
+  tbody td{
+    padding: 0 1em;
+  }
+  tbody tr:nth-child(2n){
+    background-color: #F3F3F5;
+  }
+  th {
+    text-align: center !important;
+  }
+}
+body {
+  font-family: $default-fonts;
+  font-size: 14px;
+  background-color: $background-color;
+}
+header, section {
+  margin: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+section {
+  background-color: $container-color;
+}
+.nav a, 
+.article-list a,
+.search input,
+h1, h2, h3, h4, h5, h6 {
+  font-family: $emphatic-fonts;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

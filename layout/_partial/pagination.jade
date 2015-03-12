@@ -1,0 +1,9 @@
+.pagination
+  if page.prev
+    a.pagination-prev(href=url_for(page.prev_link)) PREV
+  else 
+    a.pagination-prev(href="#") HOME
+  if page.next
+    a.pagination-next(href=url_for(page.next_link)) NEXT
+  else 
+    a.pagination-next(href="#") LAST

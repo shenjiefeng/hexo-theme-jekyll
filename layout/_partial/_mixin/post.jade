@@ -1,0 +1,27 @@
+mixin dateFormat(date)
+  = date.format(config.date_format)
+
+mixin tag(tags)
+  ul.post-tag
+    if tags
+      - tags.each(function(tag) {
+        li
+          a(href=config.root + tag.path)
+            != tag.name
+      - })
+
+mixin postInfo(item)
+  .post-meta
+    +dateFormat(item.date)
+    +tag(item.tags)
+
+mixin postList()
+  ul.article-list
+    - page.posts.each(function(item) {
+      li 
+        a(href=config.root + item.path)
+          != item.title
+        + postInfo(item)
+        .post-content
+          != item.excerpt
+    - })

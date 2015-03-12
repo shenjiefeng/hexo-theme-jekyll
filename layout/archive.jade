@@ -1,0 +1,9 @@
+extends _partial/layout
+
+prepend site_title
+  | Archive - 
+
+block content
+  include _partial/_mixin/post
+  +postList()
+  include _partial/pagination

@@ -1,0 +1,10 @@
+extends _partial/layout
+
+prepend site_title
+  != page.category
+  |  - 
+
+block content
+  include _partial/_mixin/post
+  +postList()
+  include _partial/pagination

@@ -1,0 +1,18 @@
+# Header
+menu:
+  ALISTAPART: /categories/alistapart/
+  GIANTS: /categories/giant/
+  DOCS: /categories/docs/
+  TOOLS: /categories/tools/
+  BLOG: /categories/blog/
+  ABOUT: http://localhost:4000/2015/01/01/EXP/
+  GITHUB: https://github.com/pinggod
+# rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+
+# Miscellaneous
+google_analytics: UA-58564269-1
+favicon: /favicon.png
+twitter: 

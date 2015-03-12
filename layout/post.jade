@@ -1,0 +1,14 @@
+extends _partial/layout
+
+prepend site_title
+  != page.title 
+  |  - 
+
+block content
+  article(class= page.layout)
+    .post-header
+      h1= page.title
+      include _partial/_mixin/post
+      +postInfo(page)
+    .post-content
+      != page.content
