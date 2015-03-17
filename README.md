@@ -1,6 +1,6 @@
-# Hexo Theme ： Prometheus v0.1
+# Hexo Theme ： Prometheus v0.2
 
->Most featrues are changing at any time.
+>Most features are changing at any time.
 
 ## Install
 
@@ -21,29 +21,6 @@ Modify `theme` setting in `_config.yml` to `prometheus`.
 ``` bash
 cd themes/prometheus
 git pull
-```
-
-## Configuration
-
-``` yml
-# Header
-menu:
-  ALISTAPART: /categories/alistapart/
-  GIANTS: /categories/giant/
-  DOCS: /categories/docs/
-  TOOLS: /categories/tools/
-  BLOG: /categories/blog/
-  ABOUT: http://localhost:4000/2015/01/01/EXP/
-  GITHUB: https://github.com/pinggod
-# rss: /atom.xml
-
-# Content
-excerpt_link: Read More
-
-# Miscellaneous
-google_analytics: UA-58564269-1
-favicon: /favicon.png
-twitter: 
 ```
 
 ## Contribute

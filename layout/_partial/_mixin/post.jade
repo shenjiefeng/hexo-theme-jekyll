@@ -1,5 +1,6 @@
 mixin dateFormat(date)
-  = date.format(config.date_format)
+  .post-time
+    = date.format(config.date_format)
 
 mixin tag(tags)
   ul.post-tag
@@ -16,10 +17,10 @@ mixin postInfo(item)
     +tag(item.tags)
 
 mixin postList()
-  ul.article-list
+  ul
     - page.posts.each(function(item) {
-      li 
-        a(href=config.root + item.path)
+      li.post-list 
+        a.post-list-links(href=config.root + item.path)
           != item.title
         + postInfo(item)
         .post-content

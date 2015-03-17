@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+::selection {
+  color: $container-color;
+  background-color: $active-color;
+}
+body {
+  font-size: 14px;
+}
+ul, ol,
+blockquote,
+.highlight,
+td[class="code"] {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a,
+blockquote p,
+h1, h2, h3, h4, h5, h6 {
+  font-family: $emphatic-fonts;
+}

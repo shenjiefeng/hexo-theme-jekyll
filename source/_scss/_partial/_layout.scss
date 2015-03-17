@@ -1,0 +1,48 @@
+body, header, section {
+  width: 100%;
+}
+header {
+  .logo img{
+    width: 100%;
+  }
+  .nav {
+    padding: 1em 0 0 0;
+  }
+}
+section {
+  margin: 1em 0 0 0;
+}
+.post-list {
+  padding: 8% 4% 4%;
+}
+.post {
+  padding: 4%;
+}
+
+@media screen and (min-width: 80em) {
+  body {
+    width: 70em;
+    margin: 0 auto;
+  }
+  header {
+    float: left;
+    width: 13em;
+    .logo {
+      padding: 8em 0 0 0;
+    }
+    .nav {
+      padding: 3em 0 0 0;
+    }
+  }
+  section {
+    float: right;
+    width: 54em;
+    margin: 3em 0 0 0;
+  }
+  .post-list {
+    padding: 4em 4em 2em;
+  }
+  .post {
+    padding: 6em;
+  }
+}

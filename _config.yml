@@ -1,11 +1,11 @@
 # Header
 menu:
   ALISTAPART: /categories/alistapart/
-  GIANTS: /categories/giant/
+  GIANTS: /categories/giants/
   DOCS: /categories/docs/
   TOOLS: /categories/tools/
   BLOG: /categories/blog/
-  ABOUT: http://localhost:4000/2015/01/01/EXP/
+  ABOUT: http://pinggod.com/2015/03/12/EXP/
   GITHUB: https://github.com/pinggod
 # rss: /atom.xml
 

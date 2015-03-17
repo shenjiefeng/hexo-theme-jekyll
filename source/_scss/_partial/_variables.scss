@@ -1,0 +1,16 @@
+// colors
+$default-color: #000;
+$active-color: #1C89D3;
+$background-color: #f3f3f3;
+$container-color: #fff;
+$fill-color: darken($container-color, 3%);
+$stroke-color: darken($container-color, 10%);
+$meta-color: darken($container-color, 30%);
+$pagination-color: darken($container-color, 30%);
+$comment-color: darken($container-color, 40%);
+$content-color: darken($container-color, 70%);
+
+// fonts
+$default-fonts: "Lantinghei SC", "Arial";
+$emphatic-fonts: "Adobe Heiti Std";
+$code-fonts: "Courier";

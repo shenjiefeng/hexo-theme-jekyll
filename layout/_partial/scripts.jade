@@ -8,3 +8,11 @@ if theme.google_analytics
     | ga('create',"
     = theme.google_analytics
     | ",'auto');ga('send','pageview');
+script.
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?bfb1db3818e9eec033c0bdbb9aa98ec9";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
