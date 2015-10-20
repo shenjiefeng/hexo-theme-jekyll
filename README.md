@@ -5,12 +5,30 @@
 ## Install
 
 ``` bash
+$ hexo init Blog
+$ cd Blog
+$ npm install
+$ npm install --save hexo-renderer-jade
+$ npm install --save hexo-generator-feed
 $ git clone https://github.com/pinggod/hexo-theme-jekyll.git themes/jekyll
 ```
 
 ## Enable
 
-Modify `theme` setting in `_config.yml` to `jekyll`.
+Modify `theme` setting in `_config.yml` to `jekyll`:
+
+```yaml
+theme: jekyll
+```
+
+Add `feed` setting:
+
+```yaml
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+```
 
 ## Update
 
