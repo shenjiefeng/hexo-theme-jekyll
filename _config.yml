@@ -1,18 +1,10 @@
-# Header
 menu:
-  ALISTAPART: /categories/alistapart/
-  GIANTS: /categories/giants/
-  DOCS: /categories/docs/
-  TOOLS: /categories/tools/
-  BLOG: /categories/blog/
-  ABOUT: http://pinggod.com/2015/03/12/EXP/
-  GITHUB: https://github.com/pinggod
-# rss: /atom.xml
+    home: /
+    blog: /archives/
+    rss: /atom.xml
+    github: https://github.com/pinggod
 
-# Content
-excerpt_link: Read More
-
-# Miscellaneous
-google_analytics: UA-58564269-1
 favicon: /favicon.png
-twitter: 
+
+google_analytics: UA-XXXXXXX-X
+baidu_analytics: //hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

@@ -1,0 +1,21 @@
+.row-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.limit-width {
+    width: 100%;
+    max-width: 980px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.vh-center {
+    align-items: center;
+    justify-content: center;
+}

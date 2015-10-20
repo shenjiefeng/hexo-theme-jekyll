@@ -1,0 +1,11 @@
+if config.author
+    .copyright
+        P
+            | The contents of this website are © 
+            != date(Date.now(), 'YYYY') + ' '
+            | <a href="/">
+            != config.author
+            | </a> under the terms of <a href="https://opensource.org/licenses/MIT">the MIT License</a>.
+.power
+    p.
+        modified by <a href="https://github.com/pinggod">Sean Sun</a>, powered by <a href="https://hexo.io">Hexo</a> and <a href="https://github.com/">GitHub</a>, inspired by <a href="https://jekyllrb.com/">Jekyll</a>

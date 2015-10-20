@@ -1,0 +1,28 @@
+section.installtheme
+    .row-flex.row-flex-row.limit-width
+        .intro
+            h3 
+                | If you like 
+                a(href="https://github.com/pinggod/hexo-theme-jekyll") Hexo-theme-hexo 
+                | , try it!
+        .code
+            .title Quick-start Instructions
+            .shell 
+                .line
+                    span.output # Prerequisite: Git, Node, Hexo
+                .line
+                    span.path ~
+                    span.prompt $
+                    span.command hexo init blog && cd blog
+                .line
+                    span.path ~/blog
+                    span.prompt $
+                    span.command npm install
+                .line
+                    span.path ~/blog
+                    span.prompt $
+                    span.command git clone [hexo-theme-jekyll]
+                .line
+                    span.path ~/blog
+                    span.prompt $
+                    span.command vim _config.yml

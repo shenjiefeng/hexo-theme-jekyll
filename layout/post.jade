@@ -1,14 +1,12 @@
 extends _partial/layout
 
 prepend site_title
-  != page.title 
-  |  - 
+    != page.title + " · "
 
 block content
-  article(class= page.layout)
-    .post-header
-      h1= page.title
-      include _partial/_mixin/post
-      +postInfo(page)
-    .post-content
-      != page.content
+    include _mixin/post
+    +postList(page)
+    aside.sidebar
+        include _sidebar/tag
+        include _sidebar/post
+        //- include _sidebar/toc

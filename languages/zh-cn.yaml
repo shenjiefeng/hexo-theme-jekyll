@@ -1,0 +1,14 @@
+index:
+    title: 主页
+
+archive:
+    title: 博客
+
+rss:
+    title: rss
+
+github:
+    title: github
+
+excerpt_link:
+    title: 阅读全文

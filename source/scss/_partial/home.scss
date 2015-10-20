@@ -1,0 +1,171 @@
+.home {
+    margin: 4em auto;
+    text-align: center;
+    .post-title {
+        display: block;
+        color: white;
+        font-size: 60px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .post-badge-wrap {
+        display: inline-block;
+        position: relative;
+    }
+    .post-badge {
+        position: absolute;
+        top: -90px;
+        left: -10px;
+        width: 90px;
+        height: 90px;
+        background-image: url('../img/post-count-badge.svg');
+        background-position: 0 0;
+        background-size: 90px 90px;
+        background-repeat: no-repeat;
+        span.post-badge-msg {
+            display: block;
+            font-size: 14px;
+            padding-top: 16px;
+            font-style: italic;
+            font-family: georgia,serif;
+        }
+        span.post-num {
+            display: block;
+            font-size: 36px;
+            margin-top: -6px;
+            font-family: cursive,georgia,serif;
+        }
+    }
+    .post-meta {
+        margin-bottom: 3em;
+    }
+    .read-more {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .post-time{
+        font-size: 16px;
+        font-weight: 900;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+        &:before {
+            content: "NEW!";
+            display: inline-block;
+            margin-right: 6px;
+            padding: 2px 4px;
+            border-radius: 4px;
+            color: #fff;
+            background: #bb3825;
+        }
+    }
+}
+
+.installtheme {
+    margin: 60px 0;
+    color: #fff;
+    background-color: #3F1F1F;
+    box-shadow: inset 0 3px 10px rgba(0,0,0,0.4);
+    .intro {
+        flex: 1;
+        padding: 45px 0;
+        font-size: 18px;
+        h3 {
+            font-weight: 600;
+        }
+    }
+    .code {
+        display: block;
+        flex: 1;
+        padding: 0;
+        margin-top: -35px;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 1.3em;
+        font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+        .title {
+            display: block;
+            text-align: center;
+            margin: 0 20px;
+            padding: 5px 0;
+            border-radius: 5px 5px 0 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+            font: 400 16px/24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #444;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+            background-color: #f7f7f7;
+            background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjclIiBzdG9wLWNvbG9yPSIjY2ZjZmNmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FhYWFhYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+            background-image: linear-gradient(top, #f7f7f7 0%, #cfcfcf 7%, #aaa 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#aaaaaa',GradientType=0 );
+            border-bottom: 1px solid #111
+        }
+        .shell {
+            padding: 20px;
+            text-shadow: none;
+            margin: 0 20px;
+            background-color: #171717;
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.3)
+        }
+        .line {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+        .line span {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 4px;
+        }
+        .path {
+            color: #87ceeb;
+            user-select: none;
+        }
+         .prompt {
+            color: #cd5c5c;
+            user-select: none;
+        }
+        .command {
+            color: #f0e68c;
+        }
+        .output {
+            color: #888;
+        }
+    }
+}
+
+.selfintro {
+    .wrap {
+        border-radius: 10px; 
+        margin-bottom: 4em;
+        background-color: #3e3e3e;
+    }
+    .sign {
+        flex: 1;
+        img {
+            width: 200px;
+            padding: 20px;
+            transform: scale(1.5);
+        }
+    }
+    .intro {
+        flex: 3;
+        margin-left: 70px;
+        padding: 10px;
+        h3.title {
+            font-size: 24px;
+        }
+        p.content {
+            font-size: 16px;
+            font-weight: 100;
+            letter-spacing: 1px;
+        }
+    }
+    ul.contact {
+        padding-left: 0;
+        li {
+            display: inline-block;
+            margin-right: 30px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}

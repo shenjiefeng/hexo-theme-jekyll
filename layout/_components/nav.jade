@@ -1,0 +1,14 @@
+nav
+    ul.nav-list
+        li.nav-list-item
+            a.nav-link(href= theme.menu['home'] class=is_home() ? 'active' : '')
+                = __('index.title')
+        li.nav-list-item
+            a.nav-link(href= theme.menu['blog'] class= is_archive() || is_post() ? 'active' : '')    
+                = __('archive.title')
+        li.nav-list-item
+            a.nav-link(href= theme.menu['rss'])
+                = __('rss.title')
+        li.nav-list-item
+            a.nav-link(href= theme.menu['github'] target="_blank")    
+                = __('github.title')

@@ -1,0 +1,14 @@
+index:
+    title: Home
+
+archive:
+    title: Blog
+
+rss:
+    title: rss
+
+github:
+    title: github
+
+excerpt_link:
+    title: Read More

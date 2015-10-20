@@ -1,6 +1,9 @@
 extends _partial/layout
 
 block content
-  include _partial/_mixin/post
-  +postList()
-  include _partial/pagination
+    include _mixin/post
+    +homePost()
+
+block extra
+    include _components/project
+    include _components/selfintro

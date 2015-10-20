@@ -1,7 +1,0 @@
-@mixin active-effect() {
-  &:hover, &:focus, &:active {
-    border: 1px solid $active-color;
-    color: $container-color;
-    background-color: $active-color;    
-  }
-}

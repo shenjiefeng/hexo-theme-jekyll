@@ -1,37 +1,33 @@
-# Hexo Theme ： Prometheus v0.2
+# Hexo Theme ： Jekyll
 
->Most features are changing at any time.
+> A hexo theme inspire by jekyllrb.com
 
 ## Install
 
 ``` bash
-//Prometheus requires Hexo 2.4 and above.
-$ git clone https://github.com/pinggod/prometheus.git themes/prometheus
-//Prometheus requires hexo-renderer-jade and hexo-renderer-sass
-$ npm install hexo-renderer-jade --save
-$ npm install hexo-renderer-sass --save
+$ git clone https://github.com/pinggod/jekyll.git themes/jekyll
 ```
 
 ## Enable
 
-Modify `theme` setting in `_config.yml` to `prometheus`.
+Modify `theme` setting in `_config.yml` to `jekyll`.
 
 ## Update
 
 ``` bash
-cd themes/prometheus
+cd themes/jekyll
 git pull
 ```
 
 ## Contribute
 
-- [Issue Tracker](https://github.com/pinggod/prometheus/issues)
-- [Source Code](https://github.com/pinggod/prometheus)
+- [Issue Tracker](https://github.com/pinggod/jekyll/issues)
+- [Source Code](https://github.com/pinggod/jekyll)
 
 ## Support
 
 If you are having issues, please let me know.
-**MIALTO**: pinggodstudio@gmail.com
+**MIALTO**: pinggodstudio[at]gmail.com
 
 ## License
 

@@ -1,0 +1,16 @@
+if is_archive()
+    - var prev = page.prev_link
+    - var next = page.next_link
+else if is_post()
+    - var prev = page.prev ? page.prev.path : false;
+    - var next = page.next ? page.next.path : false; 
+
+.pagination
+    if prev
+        a.pagination-prev(href=url_for(prev)) PREV
+    else 
+        span.pagination-prev PREV
+    if next
+        a.pagination-next(href=url_for(next)) NEXT
+    else 
+        span.pagination-next NEXT
