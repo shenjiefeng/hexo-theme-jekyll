@@ -5,7 +5,7 @@
 ## Install
 
 ``` bash
-$ git clone https://github.com/pinggod/jekyll.git themes/jekyll
+$ git clone https://github.com/pinggod/hexo-theme-jekyll.git themes/jekyll
 ```
 
 ## Enable
