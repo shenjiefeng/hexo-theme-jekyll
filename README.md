@@ -8,8 +8,7 @@
 $ hexo init Blog
 $ cd Blog
 $ npm install
-$ npm install --save hexo-renderer-jade
-$ npm install --save hexo-generator-feed
+$ npm install --save hexo-renderer-jade hexo-generator-feed
 $ git clone https://github.com/pinggod/hexo-theme-jekyll.git themes/jekyll
 ```
 
@@ -30,11 +29,17 @@ feed:
   limit: 20
 ```
 
+## Run
+
+```bash
+$ hexo g && hexo s
+```
+
 ## Update
 
 ``` bash
-cd themes/jekyll
-git pull
+$ cd themes/jekyll
+$ git pull
 ```
 
 ## Contribute
