@@ -12,7 +12,7 @@ mixin tag(tags)
 
 mixin postInfo(item)
     .post-meta
-        if item.tags.length !== 0
+        if item.tags && item.tags.length !== 0
             +tag(item.tags)
         +date(item.date)
 
