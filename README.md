@@ -5,9 +5,7 @@
 ## Install
 
 ``` bash
-$ hexo init Blog
-$ cd Blog
-$ npm install
+$ hexo init Blog && cd Blog && npm install
 $ npm install --save hexo-renderer-jade hexo-generator-feed
 $ git clone https://github.com/pinggod/hexo-theme-jekyll.git themes/jekyll
 ```
@@ -38,8 +36,7 @@ $ hexo g && hexo s
 ## Update
 
 ``` bash
-$ cd themes/jekyll
-$ git pull
+$ cd themes/jekyll && git pull
 ```
 
 ## Contribute
