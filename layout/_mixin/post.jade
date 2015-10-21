@@ -19,7 +19,7 @@ mixin postInfo(item)
 mixin homePost()
     .home
         - page.posts.each(function(item, index) {
-            if is_home() && index === 1
+            if is_home() && index === 0
                 article.post-block
                     h2.post-title
                         a.post-title-link(href= url_for(item.path))
