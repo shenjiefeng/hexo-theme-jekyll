@@ -7,6 +7,7 @@
 ## Never Support 
 
 - Comment System
+- IE10-
 
 ## Plan
 
