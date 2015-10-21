@@ -27,6 +27,14 @@ feed:
   limit: 20
 ```
 
+## Add Demo.md
+
+For better experience, you can remove default demo markdown file by using the follow command and add another markdown file provided by this theme:
+
+```bash
+$ rm source/_posts/hello-world.md && mv themes/jekyll/.post/demo.md source/_posts 
+```
+
 ## Run
 
 ```bash
