@@ -2,6 +2,8 @@
 
 > A hexo theme inspire by jekyllrb.com
 
+![hexo-theme-jekyll-screenshot](https://cloud.githubusercontent.com/assets/9530963/10627194/0ceeb9bc-77e9-11e5-918b-c978d444bbd3.png)
+
 ## Never Support 
 
 - Comment System
