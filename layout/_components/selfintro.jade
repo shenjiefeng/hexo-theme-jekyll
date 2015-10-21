@@ -3,8 +3,17 @@ section.selfintro
         .sign
             img(src="img/github.png", alt="")
         .intro
-            h3.title Lorem ipsum dolor sit amet.
-            p.content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quod non optio suscipit? Sequi, unde, repudiandae, culpa dolorem atque necessitatibus molestias at fugit aut corporis optio vitae, doloribus beatae facilis!
+            if theme.selfIntro.title
+                h3.title
+                    != theme.selfIntro.title
+            else 
+                h3.title Lorem ipsum dolor sit
+            if theme.selfIntro.content
+                p.content 
+                    != theme.selfIntro.content
+            else 
+                p.content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur iure hic, ea deleniti, distinctio laudantium.
+            
             ul.contact
                 li 
                     a(href="") GitHub
