@@ -2,6 +2,15 @@
 
 > A hexo theme inspire by jekyllrb.com
 
+## Never Support 
+
+- Comment System
+
+## Plan
+
+- Support responsive
+- Support zh-cn/en
+
 ## Install
 
 ``` bash
