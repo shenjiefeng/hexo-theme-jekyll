@@ -3,6 +3,18 @@
     margin-bottom: 6em;
 }
 
+.home .post-content {
+    margin: 2em 10em;
+    .note {
+        margin-left: 0;
+        border-radius: 5px;
+        &:before {
+            content: "";
+            visibility: hidden;
+        }
+    }
+}
+
 .archive,
 .post {
     flex: 6;
